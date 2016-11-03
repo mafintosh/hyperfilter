@@ -1,7 +1,7 @@
 {
   "name": "hyperfilter",
   "version": "0.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "Distributed map and filter",
   "main": "index.js",
   "dependencies": {
     "hypercore-index": "^5.1.0"
