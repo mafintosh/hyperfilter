@@ -3,7 +3,7 @@ var indexer = require('hypercore-index')
 module.exports = filter
 
 function filter (inputFeed, outputFeed, map) {
-  indexer({
+  return indexer({
     feed: inputFeed,
     db: outputFeed._db // TODO: maybe fix me later?
   }, function (data, next) {
